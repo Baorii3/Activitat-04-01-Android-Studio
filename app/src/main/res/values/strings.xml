@@ -3,4 +3,5 @@
     <string name="name">Name</string>
     <string name="iniciar">Iniciar</string>
     <string name="title_activity_success">SuccessActivity</string>
+    <string name="volver">volver</string>
 </resources>

@@ -15,6 +15,7 @@ class StartActivity : AppCompatActivity() {
     lateinit var boto2: Button
     lateinit var boto3: Button
 
+    lateinit var botoVolver: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,6 +31,10 @@ class StartActivity : AppCompatActivity() {
         boto2 = findViewById(R.id.btn2)
         boto3 = findViewById(R.id.btn3)
 
+        botoVolver = findViewById(R.id.btnVolverStart)
+        botoVolver.setOnClickListener {
+            finish()
+        }
 
         fun canviPantalla(num: Int) {
             val activity = if (num == numeroEndevinar) SuccessActivity::class.java else ErrorActivity::class.java
