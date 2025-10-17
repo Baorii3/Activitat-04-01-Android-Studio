@@ -4,4 +4,7 @@
     <string name="iniciar">Iniciar</string>
     <string name="title_activity_success">SuccessActivity</string>
     <string name="volver">volver</string>
+    <string name="escolleix_un_numero">Escolleix un numero</string>
+    <string name="felicitats">FELICITATS!</string>
+    <string name="t_has_equivocat">T\'HAS EQUIVOCAT</string>
 </resources>

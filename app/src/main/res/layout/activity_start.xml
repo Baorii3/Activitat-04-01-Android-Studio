@@ -16,10 +16,23 @@
     app:layout_constraintEnd_toEndOf="parent"
 
     />
-    <LinearLayout
+    <TextView
+        android:id="@+id/textNumero"
+        android:text="@string/escolleix_un_numero"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:paddingBottom="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/tvNomStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textNumero"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:orientation="horizontal"
